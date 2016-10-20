@@ -1,7 +1,23 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  name: MyString
+  char_name: MyString
+  char_class: MyString
+  char_race: MyString
+  char_gender: MyString
+  char_spec: MyString
+  char_role: MyString
+  char_rank: 1
+  char_level: 1
+  char_achievements: 1
 
 two:
-  name: MyString
+  char_name: MyString
+  char_class: MyString
+  char_race: MyString
+  char_gender: MyString
+  char_spec: MyString
+  char_role: MyString
+  char_rank: 1
+  char_level: 1
+  char_achievements: 1

@@ -11,15 +11,23 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20161019045944) do
+ActiveRecord::Schema.define(version: 20161020041618) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
   create_table "characters", force: :cascade do |t|
-    t.string   "name"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.string   "char_name"
+    t.string   "char_class"
+    t.string   "char_race"
+    t.string   "char_gender"
+    t.string   "char_spec"
+    t.string   "char_role"
+    t.integer  "char_rank"
+    t.integer  "char_level"
+    t.integer  "char_achievements"
+    t.datetime "created_at",        null: false
+    t.datetime "updated_at",        null: false
   end
 
 end
